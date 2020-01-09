@@ -14,7 +14,7 @@ function Author() {
             .then((res) => {
                 setData(res.data.data.author)
             })
-    })
+    },[params.id])
     const list = [{
         title: '我的百家号原创丢了......',
         read: 312

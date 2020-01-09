@@ -1,5 +1,7 @@
 import React from 'react'
 import TitleContainer from './TitleContainer'
+import { Link, useRouteMatch, useParams, useHistory, useLocation } from 'react-router-dom'
+
 
 import './Title.scss'
 import Aa from './images/aa.svg'
@@ -12,31 +14,31 @@ function Title() {
         <nav className='title'>
             <div className='width-limit'>
                 {/* logo */}
-                <a className='logo' href='/'>
+                <Link className='logo' to='/'>
                     <img src={icon} alt='icon' />
-                </a>
+                </Link>
                 {/* write */}
-                <a className='write el lg md' href='/'>
+                <Link className='write el lg md' to='/' >
                     <img src={quill} alt='quill' />
                     <span>写文章</span>
-                </a>
+                </Link>
                 {/* sign */}
-                <a className='sign el lg md' href='/'>
+                <Link className='sign el lg md' to='/'>
                     <span>注册</span>
-                </a>
+                </Link>
                 {/* login */}
-                <a className='login el lg md' href='/'>
+                <Link className='login el lg md' to='/'>
                     <span>登录</span>
-                </a>
+                </Link>
                 {/* Beta */}
-                <a className='beta el lg md' href='/'>
+                <Link className='beta el lg md' to='/'>
                     <img src={beta} alt='beta' />
-                </a>
+                </Link>
                 {/* Aa */}
-                <a className='style-mode el lg md' href='/'>
+                <Link className='style-mode el lg md' to='/'>
                     <img src={Aa} alt='aa' />
-                </a>
-                <span className='sl' style={{lineHeight: '55px'}}>创作你的创作</span>
+                </Link>
+                <span className='sl' style={{ lineHeight: '55px' }}>创作你的创作</span>
                 <TitleContainer />
             </div>
 

@@ -1,15 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
 import Index from './components/Index/Index'
 import Paragraph from './components/Paragraph/Paragraph'
 import Recommend from './components/Recommend/Recommend'
+
+import './font-awesome/css/font-awesome.min.css'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={`/`}>
         <Route exact path='/'>
           <Index />
         </Route>
@@ -20,7 +22,6 @@ function App() {
           <Recommend />
         </Route>
       </Router>
-
     </div>
   );
 }

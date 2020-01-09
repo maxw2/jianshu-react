@@ -9,14 +9,11 @@ function MainComment() {
     const params = useParams()
     const [data, setData] = React.useState([])
     React.useEffect(() => {
-        console.log(params.id)
         AxiosRecomComment(params.id)
             .then(res => {
                 setTimeout(() => {
                     setData(res.data.data)
-                    console.log(res.data.data)
                 }, 500)
-
             })
     }, [params.id])
     return (

@@ -1,6 +1,26 @@
-.content-banner{
-    // width:485px;
-    // height: 210px;
-    width: 100%;
-    margin-bottom: 30px;
+.content-banner {
+  // width:485px;
+  // height: 210px;
+  width: 100%;
+  height: 272px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 30px;
+//   background: #f0f0f0;
+  background: linear-gradient(
+    to right,
+    #f0f0f0 0,
+    #f0f0f0 50%,
+    #f0f0f0 100%
+  );
+  animation: skeleton-ani 1s ease infinite;
+}
+@keyframes skeleton-ani {
+  /* 骨架屏动画 */
+  from {
+    left: -100%;
+  }
+  to {
+    left: 150%;
+  }
 }

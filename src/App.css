@@ -15,7 +15,9 @@ a {
 a:visited {
   color: black;
 }
-
+a:link{
+  color: #969696;
+}
 input:focus {
   outline: none;
 }

@@ -26,7 +26,9 @@ function List() {
                 <>
                     <p>全部评论 {data.length}</p>
                     {
-                        data.map((val, index) => {
+                        data.sort((a,b)=>{
+                            return b.number - a.number
+                        }).map((val, index) => {
                             return <ListContent list={val} key={index} />
                         })
                     }

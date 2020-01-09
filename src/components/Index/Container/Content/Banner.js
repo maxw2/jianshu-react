@@ -2,7 +2,7 @@ import React from 'react'
 import { axiosIndexBanner } from '../../../../axios/Axios'
 
 import TheBanner from '../../../../common/TheBanner'
-import ContentLoader from 'react-content-loader'
+// import ContentLoader from 'react-content-loader'
 
 import './Banner.scss'
 function Banner() {
@@ -13,7 +13,7 @@ function Banner() {
             .then((res) => {
                 setTimeout(() => {
                     setData(res.data.data)
-                }, 0)
+                }, 500)
             })
     }, [])
 
@@ -26,7 +26,7 @@ function Banner() {
                             {
                                 data.map((val, index) => {
                                     return (
-                                        <li className={`banner-list-${index} ${index === 0 ? 'action' : ''}`}
+                                        <li className={`banner-list banner-list-${index} ${index === 0 ? 'action' : ''}`}
                                             key={val.id}>
                                             <img src={val.url} alt={val.id} />
                                         </li>
@@ -38,10 +38,10 @@ function Banner() {
                             </div>
                         </ul>
                     </TheBanner>
-                    : 
-                    <ContentLoader>
-                        <rect x='0' y='0' rx='3' ry='3' width='100%' height='100%' />
-                    </ContentLoader>
+                    : null
+                    // <ContentLoader>
+                    //     <rect x='0' y='0' rx='3' ry='3' width='100%' height='100%' />
+                    // </ContentLoader>
             }
         </div>
     )

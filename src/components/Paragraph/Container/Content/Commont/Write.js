@@ -34,9 +34,8 @@ function Write() {
 
         if (!el.getAttribute('style')) return
         let value = document.querySelector('.paragraph .commont-write .write textarea').value
-        let number = list[list.length - 1].number
+        let number = list.length 
         let date = getDate()
-        console.log(date)
         dispatch({
             type: 'ADD_LIST',
             list: [{

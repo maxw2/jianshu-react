@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './TitleContainer.scss'
 
@@ -14,14 +15,14 @@ function TitleContainer() {
                 <input id='toggle-checkbox' type='checkbox' />
                 <ul className='nav'>
                     <li className='index'>
-                        <a href='/'>
+                        <Link to='/'>
                             <span>首页</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className='down'>
-                        <a href='/'>
+                        <Link to='/'>
                             <span>下载App</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className='search'>
                         <input placeholder='搜索' />
@@ -31,23 +32,23 @@ function TitleContainer() {
             <div className='title-container container lg el'>
                 <ul>
                     <li>
-                        <a className='index' href='/'>
+                        <Link className='index' to='/'>
                             <span className='el'>首页</span>
                             <span className='fa fa-compass lg icon'></span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className='down' href='/'>
+                        <Link className='down' to='/'>
                             <span className='el'>下载App</span>
                             <span className='fa fa-tablet lg icon'></span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <form className='search'>
                             <input className='input' placeholder='搜索' />
-                            <a className='icon' href='/'>
+                            <Link className='icon' to='/'>
                                 <span className='fa fa-search'></span>
-                            </a>
+                            </Link>
                         </form>
                     </li>
                 </ul>
