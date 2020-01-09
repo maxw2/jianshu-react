@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c27a9d86843358b69893125c691d9e68",
+    "revision": "3a45ce0a8537bae4d3d20e56b5ab6c5f",
     "url": "/jianshu-react/index.html"
   },
   {
-    "revision": "4f2baff6610fc0f851fe",
-    "url": "/jianshu-react/static/css/main.c830ac0a.chunk.css"
+    "revision": "a78737b2068918a2e983",
+    "url": "/jianshu-react/static/css/main.c9dc3bb9.chunk.css"
   },
   {
     "revision": "4c6c95f055d9034163fb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jianshu-react/static/js/2.eaf9f056.chunk.js.LICENSE"
   },
   {
-    "revision": "4f2baff6610fc0f851fe",
-    "url": "/jianshu-react/static/js/main.4d4174ed.chunk.js"
+    "revision": "a78737b2068918a2e983",
+    "url": "/jianshu-react/static/js/main.93dc5c2c.chunk.js"
   },
   {
     "revision": "195a6d94480be2ca67e5",
@@ -58,6 +58,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31abb2125fbeb07bceeb1ed920f42047",
     "url": "/jianshu-react/static/media/banner-4.31abb212.jpg"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "206b35b588f02d6ae965f32032e7de06",

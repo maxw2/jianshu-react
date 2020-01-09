@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jianshu-react/static/css/main.c830ac0a.chunk.css",
-    "main.js": "/jianshu-react/static/js/main.4d4174ed.chunk.js",
-    "main.js.map": "/jianshu-react/static/js/main.4d4174ed.chunk.js.map",
+    "main.css": "/jianshu-react/static/css/main.c9dc3bb9.chunk.css",
+    "main.js": "/jianshu-react/static/js/main.93dc5c2c.chunk.js",
+    "main.js.map": "/jianshu-react/static/js/main.93dc5c2c.chunk.js.map",
     "runtime-main.js": "/jianshu-react/static/js/runtime-main.c6cb6f08.js",
     "runtime-main.js.map": "/jianshu-react/static/js/runtime-main.c6cb6f08.js.map",
     "static/js/2.eaf9f056.chunk.js": "/jianshu-react/static/js/2.eaf9f056.chunk.js",
     "static/js/2.eaf9f056.chunk.js.map": "/jianshu-react/static/js/2.eaf9f056.chunk.js.map",
     "index.html": "/jianshu-react/index.html",
-    "precache-manifest.26c09003eefd8420b59dbf5d66584c34.js": "/jianshu-react/precache-manifest.26c09003eefd8420b59dbf5d66584c34.js",
+    "precache-manifest.a85e3ecdf9c1224e8ded8b722061ce67.js": "/jianshu-react/precache-manifest.a85e3ecdf9c1224e8ded8b722061ce67.js",
     "service-worker.js": "/jianshu-react/service-worker.js",
-    "static/css/main.c830ac0a.chunk.css.map": "/jianshu-react/static/css/main.c830ac0a.chunk.css.map",
+    "static/css/main.c9dc3bb9.chunk.css.map": "/jianshu-react/static/css/main.c9dc3bb9.chunk.css.map",
     "static/js/2.eaf9f056.chunk.js.LICENSE": "/jianshu-react/static/js/2.eaf9f056.chunk.js.LICENSE",
     "static/media/aa.svg": "/jianshu-react/static/media/aa.051936f1.svg",
     "static/media/author-1.webp": "/jianshu-react/static/media/author-1.71383c63.webp",
@@ -21,6 +21,7 @@
     "static/media/banner-2.png": "/jianshu-react/static/media/banner-2.77c98354.png",
     "static/media/banner-3.png": "/jianshu-react/static/media/banner-3.0f54a5d8.png",
     "static/media/banner-4.jpg": "/jianshu-react/static/media/banner-4.31abb212.jpg",
+    "static/media/font-awesome.min.css": "/jianshu-react/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/item-banner.jfif": "/jianshu-react/static/media/item-banner.206b35b5.jfif",
     "static/media/list-1.jpg": "/jianshu-react/static/media/list-1.4108d173.jpg",
     "static/media/quill.svg": "/jianshu-react/static/media/quill.1f2bcd17.svg",
@@ -30,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6cb6f08.js",
     "static/js/2.eaf9f056.chunk.js",
-    "static/css/main.c830ac0a.chunk.css",
-    "static/js/main.4d4174ed.chunk.js"
+    "static/css/main.c9dc3bb9.chunk.css",
+    "static/js/main.93dc5c2c.chunk.js"
   ]
 }
