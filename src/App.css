@@ -1,38 +1,182 @@
 .App {
-  text-align: center;
+}
+body {
+  padding-top: 55px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input:focus {
+  outline: none;
+}
+
+.width-limit{
+  max-width: 1440px;
+  margin: auto;
+}
+
+
+/*  container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.abstract {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/*  */
+@media (max-width: 992px) {
+  .container {
+    width: 960px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 1080px) {
+  .container {
+    width: 750px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 1081px) {
+  .container {
+    width: 960px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 992px) {
+  .container {
+    width: 970px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 750px;
   }
+}
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+
+  }
+}
+/* el */
+@media screen and (min-width: 993px) {
+  .lg {
+    display: none;
+  }
+  .md {
+    display: none;
+  }
+  .sl {
+    display: none;
+  }
+  .el {
+    display: block;
+  }
+}
+/* lg */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .el {
+    display: none;
+  }
+
+  .md {
+    display: none;
+  }
+  .sl {
+    display: none;
+  }
+  .lg {
+    display: block;
+  }
+}
+/* md */
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .el {
+    display: none;
+  }
+  .lg {
+    display: none;
+  }
+  .sl {
+    display: none;
+  }
+  .md {
+    display: block;
+  }
+}
+/* sl */
+@media screen and (max-width: 576px) {
+  .el {
+    display: none;
+  }
+  .lg {
+    display: none;
+  }
+  .md {
+    display: none;
+  }
+  .sl {
+    display: block;
+  }
+}
+
+/* 手机端 */
+@media (max-width: 576px) {
+  /* index */
+  /* container */
+  .index .container {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  /* 行数 */
+  .index .abstract{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  /* 图片 */
+  .index .picture {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .index .picture img{
+    margin: 0px !important;
+  }
+  /* recommend */
+  .recommend .container-content .content-author{
+    margin-top: 0px;
+  }
+  .recommend .container-content .content-main ul{
+    width: 100%;
+  }
+  .recommend .container-content .content-main ul li{
+    padding: 13px 0px;
+  }
+  .recommend .container-content .content-main .picture {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .recommend .container-content .content-main .picture img{
+    margin: 0px;
+    height: 100%;
+  }
+
 }

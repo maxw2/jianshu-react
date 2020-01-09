@@ -1,0 +1,123 @@
+.thebanner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  // btn-left
+  .thebanner-btn-left {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 35px;
+    height: 40px;
+    margin: auto 0;
+    z-index: 99;
+    // background: rgba(241, 241, 241,0.7);
+    cursor: pointer;
+    span {
+      margin-left: 10px;
+      color: white;
+      font-size: 40px;
+      float: left;
+    }
+  }
+  // btn-right
+  .thebanner-btn-right {
+    display: none;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    cursor: pointer;
+    span {
+      margin-right: 10px;
+      color: white;
+      font-size: 40px;
+      float: right;
+    }
+  }
+  // ul
+  ul {
+    position: relative;
+    width: 100%;
+    .action {
+      opacity: 1;
+      z-index: 1;
+      transition: none;
+    }
+    .action-left {
+      opacity: 1;
+      z-index: 1;
+      transform: translateX(100%);
+      transition: transform 1s ease 0s;
+    }
+    .action-right {
+      opacity: 1;
+      z-index: 1;
+      transform: translateX(-100%);
+      transition: transform 1s ease 0s;
+    }
+    .action-prev {
+      opacity: 1;
+      left: -100%;
+      z-index: 1;
+      transform: translateX(100%);
+      transition: transform 1s ease 0s;
+    }
+    .action-next {
+      opacity: 1;
+      left: 100%;
+      z-index: 1;
+      transform: translateX(-100%);
+      transition: transform 1s ease 0s;
+    }
+    .box-width {
+      opacity: 0;
+      img {
+        width: 100%;
+      }
+    }
+    li {
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      transition: none;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.thebanner:hover {
+  .thebanner-btn-left {
+    display: block;
+  }
+  .thebanner-btn-right {
+    display: block;
+  }
+}
+
+.thebanner-btn-left:hover {
+  span {
+    color: #ea6f5a;
+  }
+}
+.thebanner-btn-right:hover {
+  span {
+    color: #ea6f5a;
+  }
+}
+// .thebanner ul:after{
+//   content: " ";
+//   clear: both;
+//   display: table;
+// }
+// .thebanner ul:before{
+//   content: " ";
+//   display: table;
+// }

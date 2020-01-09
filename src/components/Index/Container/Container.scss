@@ -1,0 +1,14 @@
+.index-container {
+    padding-top: 30px;
+    display: flex;
+}
+
+.index-container::before{
+    content: " ";
+    display: table;
+}
+.index-container::after{
+    content: " ";
+    display: table;
+    clear: both;
+}

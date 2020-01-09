@@ -1,0 +1,58 @@
+.paragraph {
+  .commont-write {
+    display: flex;
+    .picture {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid #eee;
+      margin: 0px 10px;
+    }
+    .write {
+      flex: 1;
+      margin-right: 20px;
+      text-align: right;
+      textarea {
+        width: 100%;
+        height: 90px;
+        padding: 12px 16px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #fafafa;
+        border: 1px solid #eee;
+        resize: none;
+      }
+      textarea:focus {
+        outline: none;
+      }
+      // post
+      .post {
+        overflow: hidden;
+        height: 0px;
+        margin-top: 10px;
+        transition: 5s height ease 0s;
+
+        span {
+          display: inline-block;
+          font-size: 14px;
+          padding: 4px 12px;
+          border: 1px solid #999;
+          color: #999;
+          border-radius: 20px;
+        }
+        span:nth-child(1) {
+          opacity: 0.7;
+          cursor: not-allowed;
+          margin-right: 10px;
+          color: #fff;
+          border-color: #ec7259;
+          background: #ec7259;
+        }
+      }
+      .hover {
+        height: auto;
+      }
+    }
+  }
+}

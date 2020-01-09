@@ -1,0 +1,17 @@
+.paragraph{
+    .para-container-item{
+        .item-recommend{
+            margin: 10px 0px;
+            background: #fff;
+            // position: sticky;
+            top: 65px;
+            padding: 15px 20px;
+            .recommend-title{
+                border-left: 3px solid #ec7259;
+                padding-left: 4px;
+                font-size: 16px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

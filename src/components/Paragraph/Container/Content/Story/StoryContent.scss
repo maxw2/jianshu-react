@@ -1,0 +1,42 @@
+.paragraph {
+  .story-content {
+    .bottom {
+      margin-top: 30px;
+      color: #969696;
+      display: flex;
+      justify-content:space-between ;
+      font-size: 14px;
+      .fa{
+          font-size: 18px;
+          padding: 10px;
+      }
+      // left
+      .left {
+        .action{
+            color: rgb(98, 196, 0);
+        }
+        span:nth-child(1) {
+          border: 1px solid #eee;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+        span:nth-child(2){
+            margin: 0px 10px;
+        }
+        span:nth-child(3) {
+          border: 1px solid #eee;
+          border-radius: 50%;
+        }
+      }
+      // right
+      .right {
+      }
+    }
+    hr{
+      margin-top: 30px;
+      opacity: 0.5;
+      background: #eee;
+    }
+  }
+}
+
