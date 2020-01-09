@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a7d0967ef527b51e419a13d289b20c8",
+    "revision": "ba6adb7e5384adeaaf3ab4d55efffa44",
     "url": "/jianshu-react/index.html"
   },
   {
-    "revision": "d74a3b43a5ef5642d65c",
+    "revision": "e8da04445078fb6f6cea",
     "url": "/jianshu-react/static/css/main.fb3507b6.chunk.css"
   },
   {
-    "revision": "468a213fa24cfef20b02",
-    "url": "/jianshu-react/static/js/2.566f46a0.chunk.js"
+    "revision": "d564572324baa5593a54",
+    "url": "/jianshu-react/static/js/2.3a87991e.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/jianshu-react/static/js/2.566f46a0.chunk.js.LICENSE"
+    "url": "/jianshu-react/static/js/2.3a87991e.chunk.js.LICENSE"
   },
   {
-    "revision": "d74a3b43a5ef5642d65c",
-    "url": "/jianshu-react/static/js/main.40853fe0.chunk.js"
+    "revision": "e8da04445078fb6f6cea",
+    "url": "/jianshu-react/static/js/main.dd0c4d6a.chunk.js"
   },
   {
     "revision": "195a6d94480be2ca67e5",
