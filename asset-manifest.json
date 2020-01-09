@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jianshu-react/static/css/main.c9dc3bb9.chunk.css",
-    "main.js": "/jianshu-react/static/js/main.93dc5c2c.chunk.js",
-    "main.js.map": "/jianshu-react/static/js/main.93dc5c2c.chunk.js.map",
+    "main.js": "/jianshu-react/static/js/main.29e4635d.chunk.js",
+    "main.js.map": "/jianshu-react/static/js/main.29e4635d.chunk.js.map",
     "runtime-main.js": "/jianshu-react/static/js/runtime-main.c6cb6f08.js",
     "runtime-main.js.map": "/jianshu-react/static/js/runtime-main.c6cb6f08.js.map",
     "static/js/2.eaf9f056.chunk.js": "/jianshu-react/static/js/2.eaf9f056.chunk.js",
     "static/js/2.eaf9f056.chunk.js.map": "/jianshu-react/static/js/2.eaf9f056.chunk.js.map",
     "index.html": "/jianshu-react/index.html",
-    "precache-manifest.a85e3ecdf9c1224e8ded8b722061ce67.js": "/jianshu-react/precache-manifest.a85e3ecdf9c1224e8ded8b722061ce67.js",
+    "precache-manifest.28bbabc82df0742ae80e84d78af495e6.js": "/jianshu-react/precache-manifest.28bbabc82df0742ae80e84d78af495e6.js",
     "service-worker.js": "/jianshu-react/service-worker.js",
     "static/css/main.c9dc3bb9.chunk.css.map": "/jianshu-react/static/css/main.c9dc3bb9.chunk.css.map",
     "static/js/2.eaf9f056.chunk.js.LICENSE": "/jianshu-react/static/js/2.eaf9f056.chunk.js.LICENSE",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.c6cb6f08.js",
     "static/js/2.eaf9f056.chunk.js",
     "static/css/main.c9dc3bb9.chunk.css",
-    "static/js/main.93dc5c2c.chunk.js"
+    "static/js/main.29e4635d.chunk.js"
   ]
 }
