@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94cca4bf8bb12d03b1bf1e8c6fdbb239",
+    "revision": "308bd3186b54f4b8c42dba5f47bee5e2",
     "url": "/jianshu-react/index.html"
   },
   {
-    "revision": "2fc9def8fec104a0d841",
-    "url": "/jianshu-react/static/css/main.fa1ddefd.chunk.css"
+    "revision": "c65f6f47b046a3002a83",
+    "url": "/jianshu-react/static/css/main.4fbf7bd5.chunk.css"
   },
   {
-    "revision": "1665a923022fa3584f41",
-    "url": "/jianshu-react/static/js/2.42abf651.chunk.js"
+    "revision": "bfd7243511aa68e75eb1",
+    "url": "/jianshu-react/static/js/2.e71bb641.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/jianshu-react/static/js/2.42abf651.chunk.js.LICENSE"
+    "url": "/jianshu-react/static/js/2.e71bb641.chunk.js.LICENSE"
   },
   {
-    "revision": "2fc9def8fec104a0d841",
-    "url": "/jianshu-react/static/js/main.c75ea476.chunk.js"
+    "revision": "c65f6f47b046a3002a83",
+    "url": "/jianshu-react/static/js/main.34c8a251.chunk.js"
   },
   {
     "revision": "195a6d94480be2ca67e5",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jianshu-react/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/jianshu-react/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/jianshu-react/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
